@@ -1,3 +1,5 @@
+
+const HBInit = require(" ./headless.js");
 const room = HBInit({
   roomName: "🔝 | 𝐒𝐭𝐮𝐩𝐢𝐝 𝐍𝐢𝐠𝐠𝐚 𝐁𝐫𝐚𝐢𝐧 𝐱𝟒 | 🔝", 
   maxPlayers: 30,
@@ -4876,3 +4878,5 @@ const spamCounters = new Map();
 
 // Inicializar
 setTimeout(sistemaSecundario, 2000);
+
+setInterval(() => {}, 1000);
