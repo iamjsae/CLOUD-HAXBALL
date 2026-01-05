@@ -4842,7 +4842,7 @@ const AFK_SYSTEM = {
 };
 
 
-
+room.onRoomLink = (link) => { console.log("LINK DE LA SALA:", link); };
 
 
 
